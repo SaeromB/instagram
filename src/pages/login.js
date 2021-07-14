@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-import { isValid } from 'date-fns';
 import { React, useState, useContext, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import FirebaseContext from '../context/firebase';
@@ -78,7 +77,7 @@ export default function Login() {
         <div className="flex justify-center items-center flex-col w-full bg-white p-4 border border-gray-primary rounded mb-2">
           <p>
             Dont have Account?
-            <Link to="/signup" className="font-bold text-blue-medium">
+            <Link to={ROUTES.SIGN_UP} className="font-bold text-blue-medium">
               Sign up
             </Link>
           </p>
