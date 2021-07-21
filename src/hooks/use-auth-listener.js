@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext, React } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import FirebaseContext from '../context/firebase';
 
 export default function useAuthListener() {
