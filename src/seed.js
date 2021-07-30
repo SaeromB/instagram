@@ -3,6 +3,7 @@
 // auSd6ykYxLdPLtX9ZADKQaMuVSj1
 export function seedDatabase(firebase) {
   const users = [
+
     {
       userId: 'auSd6ykYxLdPLtX9ZADKQaMuVSj1',
       username: 'karl',

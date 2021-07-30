@@ -1,5 +1,9 @@
 import React from 'react';
 
 export default function Timeline() {
-  <div>I am timeline</div>;
+  return (
+    <div className="container col-span-2">
+      <p>I am Timeline</p>
+    </div>
+  );
 }
