@@ -2,17 +2,19 @@ import Firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+// import { seedDatabase } from '../seed';
+
 const config = {
-  apiKey: 'AIzaSyCPUgYtXMbX0XJLmJtoUZWy2RsDZJFT5Pg',
-  authDomain: 'instagram-clone-5bf1c.firebaseapp.com',
-  projectId: 'instagram-clone-5bf1c',
-  storageBucket: 'instagram-clone-5bf1c.appspot.com',
-  messagingSenderId: '694787722344',
-  appId: '1:694787722344:web:19e3313f932cc9b3e43fdd',
-  measurementId: 'G-EJYL4EZNTY',
+  apiKey: 'AIzaSyD2x2ADRmlueZU9qHhaOS3fRHPXb5QWdAM',
+  authDomain: 'instagram-clone-f23ff.firebaseapp.com',
+  projectId: 'instagram-clone-f23ff',
+  storageBucket: 'instagram-clone-f23ff.appspot.com',
+  messagingSenderId: '856485350783',
+  appId: '1:856485350783:web:a13c1e015ab697b7f85e4a',
 };
 
 const firebase = Firebase.initializeApp(config);
 const { FieldValue } = Firebase.firestore;
-
+// 한번만 불러오기
+// seedDatabase(firebase);
 export { firebase, FieldValue };

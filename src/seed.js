@@ -1,25 +1,33 @@
 /* eslint-disable no-plusplus */
-// NOTE: replace 'auSd6ykYxLdPLtX9ZADKQaMuVSj1' with your Firebase auth user id (can be taken from Firebase)
-// auSd6ykYxLdPLtX9ZADKQaMuVSj1
+// NOTE: replace '41ZgjqXJw5ZQloArgPtbUEObPHD2' with your Firebase auth user id (can be taken from Firebase)
+// 41ZgjqXJw5ZQloArgPtbUEObPHD2
 export function seedDatabase(firebase) {
   const users = [
-
     {
-      userId: 'auSd6ykYxLdPLtX9ZADKQaMuVSj1',
-      username: 'karl',
-      fullName: 'Karl Hadwen',
-      emailAddress: 'karlhadwen@gmail.com',
+      userId: '41ZgjqXJw5ZQloArgPtbUEObPHD2',
+      username: 'saerom',
+      fullName: 'Saerom Bang',
+      emailAddress: 'saerombang11@gmail.com',
       following: ['2'],
       followers: ['2', '3', '4'],
       dateCreated: Date.now(),
     },
+    // {
+    //   userId: '1',
+    //   username: 'karl',
+    //   fullName: 'Karl Hadwen',
+    //   emailAddress: 'karlhadwen@gmail.com',
+    //   following: ['2'],
+    //   followers: ['2', '3', '4'],
+    //   dateCreated: Date.now(),
+    // },
     {
       userId: '2',
       username: 'raphael',
       fullName: 'Raffaello Sanzio da Urbino',
       emailAddress: 'raphael@sanzio.com',
       following: [],
-      followers: ['auSd6ykYxLdPLtX9ZADKQaMuVSj1'],
+      followers: ['41ZgjqXJw5ZQloArgPtbUEObPHD2'],
       dateCreated: Date.now(),
     },
     {
@@ -28,7 +36,7 @@ export function seedDatabase(firebase) {
       fullName: 'Salvador Dalí',
       emailAddress: 'salvador@dali.com',
       following: [],
-      followers: ['auSd6ykYxLdPLtX9ZADKQaMuVSj1'],
+      followers: ['41ZgjqXJw5ZQloArgPtbUEObPHD2'],
       dateCreated: Date.now(),
     },
     {
@@ -37,7 +45,7 @@ export function seedDatabase(firebase) {
       fullName: 'George Orwell',
       emailAddress: 'george@orwell.com',
       following: [],
-      followers: ['auSd6ykYxLdPLtX9ZADKQaMuVSj1'],
+      followers: ['41ZgjqXJw5ZQloArgPtbUEObPHD2'],
       dateCreated: Date.now(),
     },
   ];
